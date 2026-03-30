@@ -221,7 +221,7 @@ See [`docs/jetson_setup.md`](docs/jetson_setup.md) for the complete installation
 
 | Phase | Owner | Description |
 |-------|-------|-------------|
-| Phase 1: Model Training | Partner | Dataset prep, YOLOv8n training, ONNX export |
+| Phase 1: Model Training | Jescintha | Dataset prep, YOLOv8n training, ONNX export |
 | Phase 2: Jetson Deployment | Justin Issac | Full pipeline, dependency resolution, OCR comparison, testing |
 
 ---
