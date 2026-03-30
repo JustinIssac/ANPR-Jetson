@@ -1,0 +1,12 @@
+# Jetson Nano Deployment — Python 3.6.9, JetPack 4.6.1
+# Several packages require manual installation — see docs/jetson_setup.md
+# DO NOT pip install torch, torchvision, numpy, or opencv directly on Jetson
+
+Pillow==8.4.0
+onnxruntime==1.10.0
+pytesseract>=0.3.9
+rapidfuzz>=2.0.0
+python-Levenshtein>=0.12.2
+
+# EasyOCR: install with --no-deps, then apply patches from docs/jetson_setup.md
+# pip3 install easyocr==1.7.2 --no-deps

@@ -1,0 +1,4 @@
+# Training — PC / Colab (Python 3.8+)
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+matplotlib>=3.7.0
