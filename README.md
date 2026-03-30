@@ -80,7 +80,7 @@ anpr-jetson/
 ├── requirements_jetson.txt        # Jetson Nano (Python 3.6.9)
 │
 ├── src/
-│   ├── anpr_tesseract.py          # Main pipeline — Tesseract OCR (~0.7 FPS)
+│   ├── anpr_ocr.py          # Main pipeline — Tesseract OCR (~0.7 FPS)
 │   └── anpr_easyocr.py            # Main pipeline — EasyOCR (~0.015 FPS, more accurate)
 │
 ├── models/
