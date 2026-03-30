@@ -80,7 +80,7 @@ anpr-jetson/
 ├── requirements_jetson.txt        # Jetson Nano (Python 3.6.9)
 │
 ├── src/
-│   ├── anpr_ocr.py          # Main pipeline — Tesseract OCR (~0.7 FPS)
+│   ├── anpr_tesseract.py          # Main pipeline — Tesseract OCR (~0.7 FPS)
 │   └── anpr_easyocr.py            # Main pipeline — EasyOCR (~0.015 FPS, more accurate)
 │
 ├── models/
@@ -113,7 +113,7 @@ git clone https://github.com/YOUR_USERNAME/anpr-jetson.git
 cd anpr-jetson
 
 # Tesseract (fast, ~0.7 FPS)
-python3 anpr_ocr.py --video your_video.mp4
+python3 anpr_tesseract.py --video your_video.mp4
 
 # EasyOCR (accurate, ~0.015 FPS)
 python3 anpr_easyocr.py --video your_video.mp4
@@ -122,11 +122,11 @@ python3 anpr_easyocr.py --video your_video.mp4
 **All run modes:**
 
 ```bash
-python3 anpr_ocr.py                   # live USB camera
-python3 anpr_ocr.py --gstreamer        # Pi Camera (CSI via GStreamer)
-python3 anpr_ocr.py --video demo.mp4   # video file
-python3 anpr_ocr.py --test             # static test images in test_images/
-python3 anpr_ocr.py --benchmark        # speed benchmark
+python3 anpr_tesseract.py                   # live USB camera
+python3 anpr_tesseract.py --gstreamer        # Pi Camera (CSI via GStreamer)
+python3 anpr_tesseract.py --video demo.mp4   # video file
+python3 anpr_tesseract.py --test             # static test images in test_images/
+python3 anpr_tesseract.py --benchmark        # speed benchmark
 ```
 
 **Live mode keys:**  `q` quit &nbsp;|&nbsp; `s` screenshot &nbsp;|&nbsp; `r` reset vote buffer
