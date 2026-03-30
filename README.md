@@ -1,4 +1,4 @@
-# 🚗 ANPR System — Jetson Nano Deployment
+# 🚗 Automatic Number Plate Recognition System — Jetson Nano Deployment
 
 **Real-Time Automatic Number Plate Recognition on Edge Hardware**  
 Embedded Machine Vision
